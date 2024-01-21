@@ -1,0 +1,69 @@
+/* Menu Toggle Button */
+.toggle-btn .menu-toggle-btn i{
+    color:black;
+    font-size:22px;
+}
+.toggle-btn .sub-menu-wrap{
+    position: absolute;
+    top:10%;
+    left:5%;
+    width:240px;
+    max-height:300px;
+}
+.toggle-btn .sub-menu-wrap .sub-menu{
+    background-color: lightgray;
+    padding:10px;
+    border-radius:8px;
+    display: none;
+}
+.toggle-btn .user-info{
+    display:flex;
+    align-items: center;
+}
+.toggle-btn .user-info h4{
+    font-weight: 500;
+}
+.toggle-btn .user-info img{
+    width:40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.toggle-btn hr{
+    border:0;
+    height:1px;
+    width:90%;
+    margin:5px 10px;
+    background-color:var(--secondary);
+}
+.toggle-btn .sub-menu-link a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#525252;
+    display: flex;
+    padding:6px 10px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+.toggle-btn .sub-menu-link a:hover{
+    background-color: var(--secondary);
+    transition: 0.3s ease-in;
+}
+.toggle-btn .sub-menu-link{
+    width:100%;
+    padding:0px 10px;
+}
+.toggle-btn .sub-menu-link .left-icon{
+    width:36px;
+    height:36px;
+    line-height:36px;
+    background-color: #fff;
+    text-align: center;
+    border-radius:50%;
+}
+.toggle-btn .sub-menu-link p{
+    font-size:16px;
+    padding-left:10px;
+    width:100%;
+    float:left;
+}

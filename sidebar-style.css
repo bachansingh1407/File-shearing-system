@@ -1,0 +1,65 @@
+/* SIDEBAR SECTION */
+#sidebar{
+    height:100vh;
+    width:100%;
+}
+#sidebar .main-logo{
+    margin:auto;
+    margin-top: 10px;
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#sidebar .main-logo .logo{
+    text-transform: uppercase;
+    color:var(--secondary);
+}
+#sidebar .main-logo .logo span{
+    font-size:20px;
+    font-weight: bold;
+}
+
+/* Add New Document */
+#sidebar .new-document{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+#sidebar .new-document:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+#sidebar .new-document:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+#sidebar .new-document i{
+    padding:4px;
+    margin-left:18px;
+    background-color: var(--white);
+    color: #00BD68;
+    border-radius:50%;
+}
+
+/* Application Version */
+#sidebar .version{
+    position:absolute;
+    left:50px;
+    bottom:30px;
+    font-style: italic;
+    font-weight: 700;
+}

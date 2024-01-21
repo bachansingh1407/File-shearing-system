@@ -1,0 +1,50 @@
+body{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 48, 56);
+}
+#admin-form{
+    padding:20px 30px;
+    border:1px solid lightgray;
+    border-radius: 3px;
+    width:400px; height:300px;
+    background-color: rgb(252, 252, 252);
+}
+#admin-form .input-data *{
+    display: block;
+}
+#admin-form h2{
+    text-align: center;
+}
+#admin-form .input-data{
+    width:100%;
+    margin-top:16px;
+}
+.input-data label{
+    font-size: 15px;
+}
+.input-data input[type=text],
+.input-data input[type=email],
+.input-data input[type=password]{
+    width:100%;
+    height:38px;
+    padding:4px;
+    outline:none;
+    border-radius:2px;
+    border:0.5px solid lightgray;
+}
+.input-data button{
+    width: 100%;
+    padding:12px;
+    height:42px;
+    border:transparent;
+    color:white;
+    display: block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: var(--secondary);
+}

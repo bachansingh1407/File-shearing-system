@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+/* Privacy Policy Section */
+.privacy-policy{
+    width: 100%;
+    height: 100%;
+    padding:0px 20px;
+    font-family:sans-serif;
+}
+.privacy-policy h1{
+    font-size:22px;
+}
+.privacy-policy .policy{
+    width:100%;
+    padding:10px 0px;
+    height:calc(100% - 40px);
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    text-align: justify;
+}
+.policy::-webkit-scrollbar{
+    display: none;
+}
+.policy p{
+    padding:0px;
+    margin-left:20px;
+}
